@@ -1,0 +1,129 @@
+/* NAVBAR Y DISEÑO INICIAL */
+
+body {
+    background-color: #040b14;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.sidebar {
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    background-color: #040b14;
+    width: 260px;
+    justify-content: center;  
+    flex-direction: column;
+    display: flex;
+}
+
+.sidebar a {
+    float: left;
+    color: #f2f2f2;
+    margin: 30px;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    color: #0dcaf0;
+}
+
+.banner {
+    background-image: url('https://i.pinimg.com/originals/88/15/63/881563d6444b370fa4ceea0c3183bb4c.gif');
+    height: 100vh;
+    justify-content: center;  
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.title-name {
+    color: #f2f2f2;
+}
+
+.caption-name {
+    color: #f2f2f2;
+}
+
+.img-inside {
+    height: 250px;
+}
+
+.argprograma-container {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+.argprograma-inside {
+    height: 60px;
+}
+
+main {
+    margin-left: 260px;
+}
+
+/* SOBRE MÍ */
+
+.text {
+    color: #f2f2f2;
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+#abount {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.parrafo-presentacion {
+    font-size: 20px;
+    color: #f2f2f2;
+    padding: 100px 200px !important;
+    display: flex;
+}
+
+.abount-container {
+    display: flex;
+    text-align: center;
+    margin: 0px 100px;
+}
+
+.parrafo-cointaner {
+    display: flex;
+    text-align: center;
+}
+
+.title {
+    border-bottom: 5px solid #0dcaf0;
+
+}
+
+.img-abount-insade {
+    height: 100px;
+}
+
+/* SKINS */
+
+#skins {
+    height: 100vh;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.parrafo-skins {
+    font-size: 20px;
+}
+
+.container-skins {
+    margin: 100px 100px;
+}
+
+
+
